@@ -4,7 +4,7 @@ namespace App\Entities;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
-use Illuminate\Database\Elequent\SoftDeletes;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class UserSocial extends Model
 {
