@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
 			$table->string('cpf', 11)->unique()->nullable();
 			$table->string('name', 50);
 			$table->char('phone', 11);
-			$table->date('bird')->nullable();
+			$table->date('birth')->nullable();
 			$table->char('gender', 1)->nullable();
 			$table->text('notes')->ullable();
 
